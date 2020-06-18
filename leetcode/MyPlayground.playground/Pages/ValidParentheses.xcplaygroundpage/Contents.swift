@@ -18,7 +18,7 @@ class Solution {
         while i < input.count {
             let char = input[i];
 
-            if ref[char] ==  nil { // Expected on the first instance of a closing bracket, keys are all opening brackets
+            if ref[char] ==  nil && i != 0 { // Expected on the first instance of a closing bracket, keys are all opening brackets
                 if ref[input[i - 1]] == char {
                     input.remove(at: i - 1);
                     input.remove(at: i - 1);
@@ -33,7 +33,7 @@ class Solution {
     }
 }
 
-let testString = "()";
+let testString = "))";
 
 let someSolution = Solution();
 print(someSolution.isValid(testString));
