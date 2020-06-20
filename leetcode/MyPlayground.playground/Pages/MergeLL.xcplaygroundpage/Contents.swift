@@ -71,20 +71,5 @@ class Solution {
 }
 
 
-let someSolution = Solution()
-
-let node1 = ListNode(1)
-//let node2 = ListNode(2)
-//let node3 = ListNode(4)
-//node1.next = node2
-//node2.next = node3
-
-let nodeA = ListNode(2)
-//let nodeB = ListNode(3)
-//let nodeC = ListNode(4)
-//nodeA.next = nodeB
-//nodeB.next = nodeC
-
-var result = someSolution.mergeTwoLists(node1, nodeA)
 
 
