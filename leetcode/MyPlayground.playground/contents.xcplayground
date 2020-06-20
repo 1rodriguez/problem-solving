@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='macos'/>
+<playground version='6.0' target-platform='macos'>
+    <pages>
+        <page name='MergeLL'/>
+        <page name='TwoSum'/>
+        <page name='MaximumSubarray'/>
+        <page name='ValidParentheses'/>
+        <page name='Scratch'/>
+    </pages>
+</playground>
