@@ -1,3 +1,3 @@
-let myArray = [1, 2, 3]
+let arr = [Int]()
 
-print(myArray[1...1])
+print(arr[0] == Int())
