@@ -6,5 +6,6 @@
         <page name='MaximumSubarray'/>
         <page name='ValidParentheses'/>
         <page name='Scratch'/>
+        <page name='ClimbingStairs'/>
     </pages>
 </playground>
