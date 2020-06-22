@@ -8,5 +8,6 @@
         <page name='Scratch'/>
         <page name='ClimbingStairs'/>
         <page name='BuyAndSell'/>
+        <page name='HouseRobber'/>
     </pages>
 </playground>
