@@ -7,5 +7,6 @@
         <page name='ValidParentheses'/>
         <page name='Scratch'/>
         <page name='ClimbingStairs'/>
+        <page name='BuyAndSell'/>
     </pages>
 </playground>
