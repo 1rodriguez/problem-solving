@@ -1,11 +1,3 @@
-//: [Previous](@previous)
-
-import Foundation
-
-var str = "Hello, playground"
-
-//: [Next](@next)
-
 class Solution {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         // Iterate through the number array, storing the difference
@@ -13,24 +5,22 @@ class Solution {
         // differences stored in the dictionary, the answer is the number
         // pertaining to the difference and the current number.
         
-        var diff = [Int: Int]();
-        var answer = [Int]();
+        var diff = [Int: Int]()
         
         for (i, n) in nums.enumerated() {
              
-            if let val = diff[n] {
-                answer += [val, i];
+            if diff[n] != nil {
+                return [diff[n]!, i]
             }
             
-            let result = target - n;
-            diff[result] = i;
+            diff[target - n] = i;
         }
         
-        return answer;
+        return [0]
     }
 }
 
-let mySolution = Solution();
+let mySolution = Solution()
 
 let arr = [Int]([1, 3, 5, 9]);
 let t = 12;
